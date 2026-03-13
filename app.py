@@ -10,7 +10,7 @@ def home():
 def status():
     return jsonify({
         "app": "Flask CI/CD Demo",
-        "version": "2.0.0",
+        "version": "3.0.0",
         "status": "running",
         "author": "Abishek Budhiraja"
     })
